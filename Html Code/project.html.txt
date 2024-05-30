@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- start page -->
+    <div class="page">
+        <!-- start sidebar -->
+        <div class="sidebar">
+            <h3>Omar</h3>
+            <ul>
+                <li>
+                    <a href="index.html" class="active">
+                        <i class="fa-solid fa-chart-line" style="color: #000000;"></i>
+                        <span >Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="setting.html">
+                        <i class="fa-solid fa-gear" style="color: #000000;"></i>
+                        <span>Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="porfile.html">
+                        <i class="fa-regular fa-user" style="color: #000000;"></i>
+                        <span>Porfile</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="porject.html">
+                        <i class="fa-solid fa-diagram-project" style="color: #000000;"></i>
+                        <span>Project</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="courses.html">
+                        <i class="fa-solid fa-list-check" style="color: #000000;"></i>
+                        <span>Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="freinds.html">
+                        <i class="fa-solid fa-user-group" style="color: #000000;"></i>
+                        <span>Frirends</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="files.html">
+                        <i class="fa-solid fa-file" style="color: #000000;"></i>
+                        <span>Files</span>
+                    </a>
+                </li>
+            </ul>
+            
+        </div>
+        <!-- end sidebar -->
+        <!-- start head -->
+        <div class="content">
+            <div class="head">
+                <div class="serach">
+                    <input type="search" placeholder="Type A Kewords">
+                    <span>
+                        <i class="fa-solid fa-magnifying-glass" style="color: #000000;vertical-align: middle;font-size: 15px;margin-bottom: 5px;"></i>
+                    </span>
+
+                </div>
+                <div class="info">
+                    <span class="not">
+                        <i class="fa-regular fa-bell" style="color: #000000;"></i>
+
+                    </span>
+                    <img src="photo/avatar.png" alt="">
+
+                </div>
+            </div>
+            <!-- end head -->
+           <h1>Poroject</h1>
+            <!-- start poroject -->
+            <div class="start-project">
+                <div class="frist-project all">
+                    <span>15/10/2021
+                    </span>
+                    <h2>Elzero Dashboard
+                    </h2>
+                    <span>Elzero Dashboard Project Design And Programming And Hosting
+
+                    </span>
+                    <div class="team">
+                        <a href=""><img src="photo/team-01.png" alt=""></a>
+                        <a href=""><img src="photo/team-02.png" alt=""></a>
+                        <a href=""><img src="photo/team-03.png" alt=""></a>
+                        <a href=""><img src="photo/team-04.png" alt=""></a>
+                        <a href=""><img src="photo/team-05.png" alt=""></a>
+
+                    </div>
+                    <div class="do">
+                       <h4>Tasks</h4>
+                       <h4>Design</h4>
+                       <h4>Marketing</h4>
+                       <h4>Project</h4>
+
+
+                    </div>
+                    <div class="end">
+                        <div class="progress">
+                            <span style="width: 80%;"></span>
+                        </div>
+                        <h5>$2500</h5>
+                    </div>
+
+                </div>
+                <div class="frist-project all">
+                    <span>12/10/2021
+                    </span>
+                    <h2>Academy Portal
+
+                    </h2>
+                    <span>Academy Portal Project Design And Programming
+
+
+
+                    </span>
+                    <div class="team">
+                        <a href=""><img src="photo/team-01.png" alt=""></a>
+                        <a href=""><img src="photo/team-02.png" alt=""></a>
+
+                    </div>
+                    <div class="do">
+                        <h4>Tasks</h4>
+                       <h4>Design</h4>
+                       <h4>Marketing</h4>
+                       <h4>Project</h4>
+
+
+                    </div>
+                    <div class="end">
+                        <div class="progress">
+                            <span style="width: 80%;"></span>
+                        </div>
+                        <h5>$1800</h5>
+                    </div>
+
+                </div>
+                <div class="frist-project all">
+                    <span>12/10/2021
+                    </span>
+                    <h2>Chatting Application
+
+                    </h2>
+                    <span>Chatting Application Project Design
+
+                    </span>
+                    <div class="team">
+                        <a href=""><img src="photo/team-05.png" alt=""></a>
+                        <a href=""><img src="photo/team-04.png" alt=""></a>
+                        <a href=""><img src="photo/team-03.png" alt=""></a>
+
+
+                    </div>
+                    <div class="do">
+                        <h4>Tasks</h4>
+                        <h4>Design</h4>
+                        <h4>Marketing</h4>
+                        <h4>Project</h4>
+
+
+                    </div>
+                    <div class="end">
+                        <div class="progress">
+                            <span style="width: 80%;"></span>
+                        </div>
+                        <h5>$950</h5>
+                    </div>
+
+                </div>
+                <div class="frist-project all">
+                    <span>19/10/2021
+                    </span>
+                    <h2>Omar Portal
+                    </h2>
+                    <span>Omar Portal Project Design And Programming And Hosting
+
+                    </span>
+                    <div class="team">
+                        <a href=""><img src="photo/team-01.png" alt=""></a>
+                        <a href=""><img src="photo/team-02.png" alt=""></a>
+                        <a href=""><img src="photo/team-03.png" alt=""></a>
+                        <a href=""><img src="photo/team-04.png" alt=""></a>
+
+                    </div>
+                    <div class="do">
+                       <h4>Programing</h4>
+                       <h4>Al</h4>
+                       <h4>Hosting</h4>
+                       <h4>Project</h4>
+
+
+                    </div>
+                    <div class="end">
+                        <div class="progress">
+                            <span style="width: 80%;"></span>
+                        </div>
+                        <h5>$1700</h5>
+                    </div>
+
+                </div>
+                <div class="frist-project all">
+                    <span>22/10/2021
+                    </span>
+                    <h2>Ali Dashboard
+                    </h2>
+                    <span>ALi Dashboard Project Design And Programming And Hosting
+
+                    </span>
+                    <div class="team">
+                        <a href=""><img src="photo/team-01.png" alt=""></a>
+                        <a href=""><img src="photo/team-02.png" alt=""></a>
+                        <a href=""><img src="photo/team-03.png" alt=""></a>
+
+                    </div>
+                    <div class="do">
+                       <h4>Programing</h4>
+                       <h4>Targets</h4>
+                       <h4>Hosting</h4>
+                       <h4>Table</h4>
+
+
+                    </div>
+                    <div class="end">
+                        <div class="progress">
+                            <span style="width: 80%;"></span>
+                        </div>
+                        <h5>$1300</h5>
+                    </div>
+
+                </div>
+                <div class="frist-project all">
+                    <span>26/10/2021
+                    </span>
+                    <h2>Mohamed Portal
+                    </h2>
+                    <span>Mohmaed Portal Project Design And Programming And Hosting
+
+                    </span>
+                    <div class="team">
+                        <a href=""><img src="photo/team-01.png" alt=""></a>
+                        <a href=""><img src="photo/team-03.png" alt=""></a>
+
+                    </div>
+                    <div class="do">
+                        <h4>Tasks</h4>
+                       <h4>Design</h4>
+                       <h4>Marketing</h4>
+                       <h4>Project</h4>
+
+
+                    </div>
+                    <div class="end">
+                        <div class="progress">
+                            <span style="width: 80%;"></span>
+                        </div>
+                        <h5>$2000</h5>
+                    </div>
+
+                </div>
+                <div class="frist-project all">
+                    <span>26/10/2021
+                    </span>
+                    <h2>Mohamed Dashboard
+                    </h2>
+                    <span>Mohmaed Applction Project Design And Programming And Hosting
+
+                    </span>
+                    <div class="team">
+                        <a href=""><img src="photo/team-01.png" alt=""></a>
+                        <a href=""><img src="photo/team-03.png" alt=""></a>
+                        <a href=""><img src="photo/team-04.png" alt=""></a>
+                        <a href=""><img src="photo/team-05.png" alt=""></a>
+
+
+                    </div>
+                    <div class="do">
+                       <h4>Targets</h4>
+                       <h4>Hosting</h4>
+                       <h4>Table</h4>
+                       <h4>design</h4>
+
+
+                    </div>
+                    <div class="end">
+                        <div class="progress">
+                            <span style="width: 80%;"></span>
+                        </div>
+                        <h5>$3000</h5>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- end project -->
+        </div>
+    </div>
+</body>
+</html>

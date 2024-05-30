@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frineds</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- start page -->
+    <div class="page">
+        <!-- start sidebar -->
+        <div class="sidebar">
+            <h3>Omar</h3>
+            <ul>
+                <li>
+                    <a href="index.html" class="active">
+                        <i class="fa-solid fa-chart-line" style="color: #000000;"></i>
+                        <span >Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="setting.html">
+                        <i class="fa-solid fa-gear" style="color: #000000;"></i>
+                        <span>Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="porfile.html">
+                        <i class="fa-regular fa-user" style="color: #000000;"></i>
+                        <span>Porfile</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="porject.html">
+                        <i class="fa-solid fa-diagram-project" style="color: #000000;"></i>
+                        <span>Project</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="courses.html">
+                        <i class="fa-solid fa-list-check" style="color: #000000;"></i>
+                        <span>Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="freinds.html">
+                        <i class="fa-solid fa-user-group" style="color: #000000;"></i>
+                        <span>Frirends</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="files.html">
+                        <i class="fa-solid fa-file" style="color: #000000;"></i>
+                        <span>Files</span>
+                    </a>
+                </li>
+            </ul>
+            
+        </div>
+        <!-- end sidebar -->
+        <!-- start head -->
+        <div class="content">
+            <div class="head">
+                <div class="serach">
+                    <input type="search" placeholder="Type A Kewords">
+                    <span>
+                        <i class="fa-solid fa-magnifying-glass" style="color: #000000;vertical-align: middle;font-size: 15px;margin-bottom: 5px;"></i>
+                    </span>
+
+                </div>
+                <div class="info">
+                    <span class="not">
+                        <i class="fa-regular fa-bell" style="color: #000000;"></i>
+
+                    </span>
+                    <img src="photo/avatar.png" alt="">
+
+                </div>
+            </div>
+            <!-- end head -->
+           <h1>Frineds</h1>
+            <!-- start Frines -->
+            <div class="frineds-page ">
+                <div class="freiends all">
+                    <i class="fa-solid fa-phone"></i>
+                    <i class="fa-solid fa-envelopes-bulk"></i>
+                    <div class="content-friends">
+                        <img src="photo/friend-01 (1).jpg" alt="">
+                        <h4>Ahmed Nasser
+                        </h4>
+                        <span>Java script Developer</span>
+                    </div>
+                    <div class="after-content-friends">
+                        <h5><i class="fa-regular fa-face-smile" style="margin-right: 3px;"></i> 99 Friend
+                        </h5>
+                        <h5> <i class="fa-solid fa-diagram-project" style="margin-right: 4px;"></i> 15 Projects
+                        </h5>
+                        <h5> <i class="fa-regular fa-newspaper" style="margin-right: 3px;"></i> 25 Articles
+                        </h5>
+                    </div>
+                    <div class="end-friends">
+                        <div>
+                            <span>Joined 02/10/2021
+                            </span>
+                        </div>
+                        <div>
+                            <a href="#">Porfile</a>
+                            <a href="#">Remove</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="freiends all">
+                    <i class="fa-solid fa-phone"></i>
+                    <i class="fa-solid fa-envelopes-bulk"></i>
+                    <div class="content-friends">
+                        <img src="photo/friend-02 (1).jpg" alt="">
+                        <h4> Nour Mohamed
+                        </h4>
+                        <span>Paython Developer</span>
+                    </div>
+                    <div class="after-content-friends">
+                        <h5><i class="fa-regular fa-face-smile" style="margin-right: 3px;"></i> 49 Friend
+                        </h5>
+                        <h5> <i class="fa-solid fa-diagram-project" style="margin-right: 4px;"></i> 18 Projects
+                        </h5>
+                        <h5> <i class="fa-regular fa-newspaper" style="margin-right: 3px;"></i> 35 Articles
+                        </h5>
+                    </div>
+                    <div class="end-friends">
+                        <div>
+                            <span>Joined 06/10/2021
+                            </span>
+                        </div>
+                        <div>
+                            <a href="#">Porfile</a>
+                            <a href="#">Remove</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="freiends all">
+                    <i class="fa-solid fa-phone"></i>
+                    <i class="fa-solid fa-envelopes-bulk"></i>
+                    <div class="content-friends">
+                        <img src="photo/friend-03 (1).jpg" alt="">
+                        <h4> Ali Mohamed
+                        </h4>
+                        <span>Mobile Applaction</span>
+                    </div>
+                    <div class="after-content-friends">
+                        <h5><i class="fa-regular fa-face-smile" style="margin-right: 3px;"></i> 29 Friend
+                        </h5>
+                        <h5> <i class="fa-solid fa-diagram-project" style="margin-right: 4px;"></i> 12 Projects
+                        </h5>
+                        <h5> <i class="fa-regular fa-newspaper" style="margin-right: 3px;"></i> 15 Articles
+                        </h5>
+                    </div>
+                    <div class="end-friends">
+                        <div>
+                            <span>Joined 08/10/2021
+                            </span>
+                        </div>
+                        <div>
+                            <a href="#">Porfile</a>
+                            <a href="#">Remove</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="freiends all">
+                    <i class="fa-solid fa-phone"></i>
+                    <i class="fa-solid fa-envelopes-bulk"></i>
+                    <div class="content-friends">
+                        <img src="photo/friend-04 (1).jpg" alt="">
+                        <h4> Omar Rehan
+                        </h4>
+                        <span>Back-End-developer</span>
+                    </div>
+                    <div class="after-content-friends">
+                        <h5><i class="fa-regular fa-face-smile" style="margin-right: 3px;"></i> 60 Friend
+                        </h5>
+                        <h5> <i class="fa-solid fa-diagram-project" style="margin-right: 4px;"></i> 40 Projects
+                        </h5>
+                        <h5> <i class="fa-regular fa-newspaper" style="margin-right: 3px;"></i> 35 Articles
+                        </h5>
+                    </div>
+                    <div class="end-friends">
+                        <div>
+                            <span>Joined 22/10/2021
+                            </span>
+                        </div>
+                        <div>
+                            <a href="#">Porfile</a>
+                            <a href="#">Remove</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="freiends all">
+                    <i class="fa-solid fa-phone"></i>
+                    <i class="fa-solid fa-envelopes-bulk"></i>
+                    <div class="content-friends">
+                        <img src="photo/friend-05 (1).jpg" alt="">
+                        <h4> Ahmed Bassem
+                        </h4>
+                        <span>Front-End-developer</span>
+                    </div>
+                    <div class="after-content-friends">
+                        <h5><i class="fa-regular fa-face-smile" style="margin-right: 3px;"></i> 50 Friend
+                        </h5>
+                        <h5> <i class="fa-solid fa-diagram-project" style="margin-right: 4px;"></i> 30 Projects
+                        </h5>
+                        <h5> <i class="fa-regular fa-newspaper" style="margin-right: 3px;"></i> 30 Articles
+                        </h5>
+                    </div>
+                    <div class="end-friends">
+                        <div>
+                            <span>Joined 26/10/2021
+                            </span>
+                        </div>
+                        <div>
+                            <a href="#">Porfile</a>
+                            <a href="#">Remove</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="freiends all">
+                    <i class="fa-solid fa-phone"></i>
+                    <i class="fa-solid fa-envelopes-bulk"></i>
+                    <div class="content-friends">
+                        <img src="photo/friend-01.jpg" alt="">
+                        <h4> Ahmed Bassem
+                        </h4>
+                        <span>Full Stack-developer</span>
+                    </div>
+                    <div class="after-content-friends">
+                        <h5><i class="fa-regular fa-face-smile" style="margin-right: 3px;"></i> 40 Friend
+                        </h5>
+                        <h5> <i class="fa-solid fa-diagram-project" style="margin-right: 4px;"></i> 20 Projects
+                        </h5>
+                        <h5> <i class="fa-regular fa-newspaper" style="margin-right: 3px;"></i> 35 Articles
+                        </h5>
+                    </div>
+                    <div class="end-friends">
+                        <div>
+                            <span>Joined 23/10/2021
+                            </span>
+                        </div>
+                        <div>
+                            <a href="#">Porfile</a>
+                            <a href="#">Remove</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="freiends all">
+                    <i class="fa-solid fa-phone"></i>
+                    <i class="fa-solid fa-envelopes-bulk"></i>
+                    <div class="content-friends">
+                        <img src="photo/friend-02.jpg" alt="">
+                        <h4> Ehab Mohamed
+                        </h4>
+                        <span>Software-Eng</span>
+                    </div>
+                    <div class="after-content-friends">
+                        <h5><i class="fa-regular fa-face-smile" style="margin-right: 3px;"></i> 88 Friend
+                        </h5>
+                        <h5> <i class="fa-solid fa-diagram-project" style="margin-right: 4px;"></i> 55 Projects
+                        </h5>
+                        <h5> <i class="fa-regular fa-newspaper" style="margin-right: 3px;"></i> 44 Articles
+                        </h5>
+                    </div>
+                    <div class="end-friends">
+                        <div>
+                            <span>Joined 26/10/2021
+                            </span>
+                        </div>
+                        <div>
+                            <a href="#">Porfile</a>
+                            <a href="#">Remove</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="freiends all">
+                    <i class="fa-solid fa-phone"></i>
+                    <i class="fa-solid fa-envelopes-bulk"></i>
+                    <div class="content-friends">
+                        <img src="photo/friend-01 (1).jpg" alt="">
+                        <h4>Osama-Elzero
+                        </h4>
+                        <span>Developer</span>
+                    </div>
+                    <div class="after-content-friends">
+                        <h5><i class="fa-regular fa-face-smile" style="margin-right: 3px;"></i> 99 Friend
+                        </h5>
+                        <h5> <i class="fa-solid fa-diagram-project" style="margin-right: 4px;"></i> 15 Projects
+                        </h5>
+                        <h5> <i class="fa-regular fa-newspaper" style="margin-right: 3px;"></i> 25 Articles
+                        </h5>
+                    </div>
+                    <div class="end-friends">
+                        <div>
+                            <span>Joined 08/10/2021
+                            </span>
+                        </div>
+                        <div>
+                            <a href="#">Porfile</a>
+                            <a href="#">Remove</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="freiends all">
+                    <i class="fa-solid fa-phone"></i>
+                    <i class="fa-solid fa-envelopes-bulk"></i>
+                    <div class="content-friends">
+                        <img src="photo/friend-04 (1).jpg" alt="">
+                        <h4> Gaber Mohamed
+                        </h4>
+                        <span>Paython Developer</span>
+                    </div>
+                    <div class="after-content-friends">
+                        <h5><i class="fa-regular fa-face-smile" style="margin-right: 3px;"></i> 29 Friend
+                        </h5>
+                        <h5> <i class="fa-solid fa-diagram-project" style="margin-right: 4px;"></i> 28 Projects
+                        </h5>
+                        <h5> <i class="fa-regular fa-newspaper" style="margin-right: 3px;"></i> 25 Articles
+                        </h5>
+                    </div>
+                    <div class="end-friends">
+                        <div>
+                            <span>Joined 02/10/2021
+                            </span>
+                        </div>
+                        <div>
+                            <a href="#">Porfile</a>
+                            <a href="#">Remove</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="freiends all">
+                    <i class="fa-solid fa-phone"></i>
+                    <i class="fa-solid fa-envelopes-bulk"></i>
+                    <div class="content-friends">
+                        <img src="photo/friend-03 (1).jpg" alt="">
+                        <h4> Ali Omar
+                        </h4>
+                        <span>Cyper-Security</span>
+                    </div>
+                    <div class="after-content-friends">
+                        <h5><i class="fa-regular fa-face-smile" style="margin-right: 3px;"></i> 49 Friend
+                        </h5>
+                        <h5> <i class="fa-solid fa-diagram-project" style="margin-right: 4px;"></i> 32 Projects
+                        </h5>
+                        <h5> <i class="fa-regular fa-newspaper" style="margin-right: 3px;"></i> 25 Articles
+                        </h5>
+                    </div>
+                    <div class="end-friends">
+                        <div>
+                            <span>Joined 04/10/2021
+                            </span>
+                        </div>
+                        <div>
+                            <a href="#">Porfile</a>
+                            <a href="#">Remove</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
+
+            <!-- end Frineds -->
+        </div>
+    </div>
+</body>
+</html>
